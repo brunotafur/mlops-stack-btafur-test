@@ -5,12 +5,12 @@ new_cluster: &new_cluster
     node_type_id: i3.xlarge
     custom_tags:
       clusterSource: mlops-stack/0.1
-    policy_id: E060384AFC00043E
-    aws_attributes:
-        instance_profile_arn: arn:aws:iam::997819012307:instance-profile/shard-demo-s3-access
-        zone_id: auto
-    custom_tags:
-      clusterSource: mlops-stack/0.1
+    #policy_id: E060384AFC00043E
+    #aws_attributes:
+    #    instance_profile_arn: arn:aws:iam::997819012307:instance-profile/shard-demo-s3-access
+    #    zone_id: auto
+    #custom_tags:
+    #  clusterSource: mlops-stack/0.1
 
 permissions: &permissions
   permissions:

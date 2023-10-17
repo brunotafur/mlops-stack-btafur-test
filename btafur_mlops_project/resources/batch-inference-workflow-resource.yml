@@ -3,12 +3,7 @@ new_cluster: &new_cluster
     num_workers: 3
     spark_version: 12.2.x-cpu-ml-scala2.12
     node_type_id: i3.xlarge
-    policy_id: E060384AFC00043E
-    aws_attributes:
-        instance_profile_arn: arn:aws:iam::997819012307:instance-profile/shard-demo-s3-access
-        zone_id: auto
-    custom_tags:
-      clusterSource: mlops-stack/0.1
+
     
 permissions: &permissions
   permissions:
