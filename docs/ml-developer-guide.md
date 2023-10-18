@@ -1,7 +1,7 @@
 # ML Developer Guide
 
 [(back to main README)](../README.md)
-
+ 
 ## Table of contents
 * [Initial setup](#initial-setup): adapting the provided example code to your ML problem
 * [Iterating on ML code](#iterating-on-ml-code): making and testing ML code changes on Databricks or your local machine.
